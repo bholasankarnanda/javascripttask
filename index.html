@@ -4,6 +4,109 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Basics</title>
+    <link rel="stylesheet" href="./assests/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Celsius to Fahrenheit Converter -->
+    <div class="cle-far same">
+      <h1>Celsius to Fahrenheit Converter</h1>
+      <div class="in-lab">
+        <label for="celsiusInput">Celsius:</label>
+        <input
+          type="number"
+          id="celsiusInput"
+          placeholder="Enter Celsius temperature"
+        />
+      </div>
+
+      <button onclick="convertTemperature()">Convert 🔁</button>
+      <p>Fahrenheit: <span id="fahrenheitOutput"></span></p>
+    </div>
+
+    <!-- Array sum -->
+    <div class="arr-elm-sum same">
+      <h1>Array element Sum</h1>
+      <div class="in-lab">
+        <label for="arrayInput">Enter the array value:</label>
+        <input type="text" id="arrayInput" placeholder="1,2,3,4,5,..." />
+      </div>
+
+      <button onclick="sumArray()">Sum</button>
+      <p>Sum is: <span id="sumOutput"></span></p>
+    </div>
+
+    <!--  Avg of array element -->
+    <div class="avg-arr-sum same">
+      <h1>Avg of array element.</h1>
+      <div class="in-lab">
+        <label for="avgArrayInput">Enter the array value:</label>
+        <input type="text" id="avgArrayInput" placeholder="1,2,3,4,5,..." />
+      </div>
+
+      <button onclick="avgArray()">Average:</button>
+      <p>Avg of array : <span id="avgArrayOutput"></span></p>
+    </div>
+
+    <!-- Even element array -->
+    <div class="enven-elem same">
+      <h1>Even element array</h1>
+      <div class="in-lab">
+        <label for="evenArrayInput">Enter the array value:</label>
+        <input type="text" id="evenArrayInput" placeholder="1,2,3,4,5,..." />
+      </div>
+
+      <button onclick="evenElemArray()">Show Even Elements</button>
+      <p>Even element is: <span id="evenArrayOutput"></span></p>
+    </div>
+
+    <!-- ReverseString -->
+    <div class="reverse-str same">
+      <h1>Reverse of a string</h1>
+      <div class="in-lab">
+        <label for="strInput">Enter Your Name</label>
+        <input type="text" id="strInput" />
+      </div>
+
+      <button onclick="reverseString()">Reverse</button>
+      <p>Your text is reversed 👉: <span id="reverseStringoutput"></span></p>
+    </div>
+
+    <!-- vowels counter -->
+    <div class="vowel-counter same">
+      <h1>Vowels counter</h1>
+      <div class="in-lab">
+        <label for="vowelInput">Enter Your Name</label>
+        <input type="text" id="vowelInput" />
+      </div>
+
+      <button onclick="vowelCounter()">Count vowels</button>
+      <p>Vowels are 👉: <span id="vowelCounterOutput"></span></p>
+    </div>
+
+    <!-- Max element in an array -->
+    <div class="max-elem-array same">
+      <h1>Max element in an array</h1>
+      <div class="in-lab">
+        <label for="maxArrayInput">Enter array element</label>
+        <input type="text" id="maxArrayInput" placeholder="1,2,3,4,5,..." />
+      </div>
+      <button onclick="maxInArray()">Max element</button>
+      <p>Maximum element is: 👉: <span id="maxArrayOutput"></span></p>
+    </div>
+
+    <!-- Grade Calculator  -->
+
+    <div class="grade-cal same">
+      <h1>Grade Calculator</h1>
+      <div class="in-lab">
+        <label for="charInput">Enter your mark</label>
+        <input type="text" id="charInput" />
+      </div>
+
+      <button onclick="gradeCalculator()">Get Grade</button>
+      <p>Your grade is: 👉: <span id="charOutput"></span></p>
+    </div>
+
+    <script src="./assests/js/task.js"></script>
+  </body>
 </html>
