@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS Basics</title>
-    <link rel="stylesheet" href="./assests/css/style.css" />
+    <title>Different Calculator</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- Celsius to Fahrenheit Converter -->
@@ -19,7 +19,7 @@
         />
       </div>
 
-      <button onclick="convertTemperature()">Convert 🔁</button>
+      <button id="convertTemperatureBtn">Convert 🔁</button>
       <p>Fahrenheit: <span id="fahrenheitOutput"></span></p>
     </div>
 
@@ -31,7 +31,7 @@
         <input type="text" id="arrayInput" placeholder="1,2,3,4,5,..." />
       </div>
 
-      <button onclick="sumArray()">Sum</button>
+      <button id="sumArrayBtn">Sum</button>
       <p>Sum is: <span id="sumOutput"></span></p>
     </div>
 
@@ -43,7 +43,7 @@
         <input type="text" id="avgArrayInput" placeholder="1,2,3,4,5,..." />
       </div>
 
-      <button onclick="avgArray()">Average:</button>
+      <button id="avgArrayBtn">Average</button>
       <p>Avg of array : <span id="avgArrayOutput"></span></p>
     </div>
 
@@ -55,7 +55,7 @@
         <input type="text" id="evenArrayInput" placeholder="1,2,3,4,5,..." />
       </div>
 
-      <button onclick="evenElemArray()">Show Even Elements</button>
+      <button id="evenElemArrayBtn">Show Even Elements</button>
       <p>Even element is: <span id="evenArrayOutput"></span></p>
     </div>
 
@@ -67,8 +67,8 @@
         <input type="text" id="strInput" />
       </div>
 
-      <button onclick="reverseString()">Reverse</button>
-      <p>Your text is reversed 👉: <span id="reverseStringoutput"></span></p>
+      <button id="reverseStringBtn">Reverse</button>
+      <p>Your text is reversed 👉: <span id="reverseStringOutput"></span></p>
     </div>
 
     <!-- vowels counter -->
@@ -79,7 +79,7 @@
         <input type="text" id="vowelInput" />
       </div>
 
-      <button onclick="vowelCounter()">Count vowels</button>
+      <button id="vowelCounterBtn">Count vowels</button>
       <p>Vowels are 👉: <span id="vowelCounterOutput"></span></p>
     </div>
 
@@ -90,7 +90,8 @@
         <label for="maxArrayInput">Enter array element</label>
         <input type="text" id="maxArrayInput" placeholder="1,2,3,4,5,..." />
       </div>
-      <button onclick="maxInArray()">Max element</button>
+
+      <button id="maxInArrayBtn">Max element</button>
       <p>Maximum element is: 👉: <span id="maxArrayOutput"></span></p>
     </div>
 
@@ -103,10 +104,10 @@
         <input type="text" id="charInput" />
       </div>
 
-      <button onclick="gradeCalculator()">Get Grade</button>
+      <button id="gradeCalculatorBtn">Get Grade</button>
       <p>Your grade is: 👉: <span id="charOutput"></span></p>
     </div>
 
-    <script src="./assests/js/task.js"></script>
+    <script type="module" src="./assets/js/app.js"></script>
   </body>
 </html>

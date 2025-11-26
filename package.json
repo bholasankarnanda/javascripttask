@@ -1,0 +1,30 @@
+{
+  "name": "javascript-basic",
+  "version": "1.0.0",
+  "description": "This repository is for practicing and experimenting with JavaScript, including tasks, scripts, and styles. It is structured for easy learning and testing of JavaScript concepts.",
+  "main": "app.ts",
+  "scripts": {
+    "start": "lite-server",
+    "build": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bholasankarnanda/javascripttask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/bholasankarnanda/javascripttask/issues"
+  },
+  "homepage": "https://github.com/bholasankarnanda/javascripttask#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
